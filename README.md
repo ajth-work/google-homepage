@@ -1,1 +1,1 @@
-﻿This is a simple html file and css file based project to demonstrate my aiblities in recreating pre-existing wensites in HTML and CSS on my ow.
+﻿This is a simple HTML/CSS-based project to demonstrate my abilities in recreating pre-existing websites in HTML and CSS on my own.
