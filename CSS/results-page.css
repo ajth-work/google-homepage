@@ -12,6 +12,10 @@ background-color: gray;
 #google-logo-img {
 width:70px;
 }
+
+#search-bar {
+    width: 70%;
+}
 #top-navbar-upper-right-container{
 display: flex;
 position: fixed;
@@ -20,6 +24,7 @@ flex-direction: row;
 justify-content: space-around;
 background-color: green;
 width: 20%;
+align-items: center;
 }
 
 #top-navbar-lower-container {
@@ -27,19 +32,25 @@ display:flex;
 background-color: green;
 }
 #top-navbar-lower-left-side {
-display: in-line;
 background-color: blue;
 position: fixed;
 left: 0;
 }
 #top-navbar-lower-right-side {
-background-color: hotpink;
+background-color: blue;
 position: fixed;
 right: 0;
 }
+
+
 #body {
-background-color:yellow;
+background-color: wheat;
 }
+
+h2 {color: green;}
+h3 {
+    font-weight:bold;
+color:blue;}
 
 
 #footer {
