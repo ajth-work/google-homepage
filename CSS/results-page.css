@@ -1,4 +1,6 @@
 #header {
+display: block;
+position: fixed;
 background-color:purple;
 top: 0;
 height: 50px;
@@ -44,14 +46,18 @@ right: 0;
 
 
 #body {
+display: flex;
+flex-direction: column;
 background-color: wheat;
 }
 
-h2 {color: green;}
-h3 {
+.body h3 {
     font-weight:bold;
-color:blue;}
-
+    color:blue;
+}
+.body p {
+    color: #000;
+}
 
 #footer {
 display: block;
