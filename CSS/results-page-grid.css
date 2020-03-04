@@ -1,0 +1,100 @@
+#header {
+display: block;
+position: fixed;
+background-color:purple;
+top: 0;
+height: 50px;
+}
+#top-navbar-upper-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: gray;
+}
+#google-logo-img {
+width:70px;
+}
+
+#search-bar {
+    width: 70%;
+}
+#top-navbar-upper-right-container{
+display: flex;
+position: fixed;
+right: 8px;
+flex-direction: row;
+justify-content: space-around;
+background-color: green;
+width: 20%;
+align-items: center;
+}
+
+#top-navbar-lower-container {
+display:flex;
+background-color: green;
+}
+#top-navbar-lower-left-side {
+background-color: blue;
+position: fixed;
+left: 0;
+}
+#top-navbar-lower-right-side {
+background-color: blue;
+position: fixed;
+right: 0;
+}
+
+
+#body {
+display: flex;
+flex-direction: column;
+background-color: wheat;
+}
+
+.body h3 {
+    font-weight:bold;
+    color:#1a0dab;
+}
+.body p {
+    color: #000;
+}
+
+#footer {
+display: block;
+position: fixed;
+background-color:pink;
+bottom: 0;
+width: 100%;
+}
+#bottom-navbar-upper-container{
+margin-bottom: 5px;
+text-align: left;
+font-size: 15px;
+}
+#search-location {
+display: flex;
+background-color: green;
+width: 5%;
+}
+#bottom-navbar-lower-container{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+font-size: 13px;
+width: 50%;
+
+}
+
+.nav ul {
+list-style-type: none;
+background-color: black;
+color: white;
+padding: 0;
+margin: 0;
+float:left;
+}
+li {
+display: inline-block;
+padding: 3px;
+background-color: hotpink;
+}
