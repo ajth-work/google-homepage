@@ -1,96 +1,400 @@
-#header {
-    display: block;
-    position: fixed;
-    background-color:purple;
-    top: 0;
-    height: 50px;
-    }
-#top-navbar-upper-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: gray;
-    }
-#google-logo-img {
-    width:70px;
-    }
-
-#search-bar {
-    width: 70%;
-}
-#top-navbar-upper-right-container{
-    background-color: blue;
-    position: fixed;
-    right: 12px;
-    }
-
+html {  
+    background-color: yellow;
+    /*border, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: teal;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;}
+    /*border, margin, padding testing*/  
 #body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(158, 69, 27);
-    margin: 80px 12px;
-    height: 100%;
-    }
+    background-color: white;
+    line-height: 2em;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
 
+#header {
+    display: flex;
+    background-color: white;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#top-navbar-upper-container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+/*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*border, margin, padding testing*/    
+}
+
+#google-logo-container {
+width: 20%;
+/*border, margin, padding testing*/
+border-style: solid;
+border-width: 5px;
+border-color: blue;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 5px;
+margin-left: 5px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+#google-logo-img {
+    display: block;
+    width: 100px;
+    height: auto;
+    background-color: white;
+/*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+#search-bar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+/*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: -50px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+
+#search-bar-input {
+    width: 100%;
+    /*border, margin, padding testing*/
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: -50px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+#top-navbar-upper-right-container{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    justify-content: flex-end;
+/*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+
+#body-whole {
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/ 
+}
+#body-top {
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/ 
+}
+#body-navbar-container {
+    display:flex;
+    background-color: white;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#body-navbar-left-side {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-self: left;
+    justify-content: flex-start;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#body-navbar-right-side {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    justify-content: flex-end;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#search-time {  
+    background-color: teal;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#body-results {
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/ 
+}
+.body-results li {
+    border-color: red;
+}
+#footer {
+    display: block;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#bottom-navbar-upper-container{
+    display: inline-block;
+    font-size: 13px;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+#bottom-navbar-lower-container{
+    display: inline-block;
+    font-size: 13px;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}   
+
+
+
+.navbar ul {
+    list-style-type: none;
+    float:left; 
+}
+.navbar li {
+    display: inline-block;
+    background-color: lightblue; 
+/*border, margin, padding testing*/
+border-style: solid;
+border-width: 5px;
+border-color: green;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 5px;
+margin-left: 5px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+/*border, margin, padding testing*/  
+}
+.body-results li, a, h3, p {
+    display: inline-block;
+    background-color: lightgreen;
+    /*border, margin, padding testing*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /*border, margin, padding testing*/  
+}
+
+.body a, h3, p {
+        /*border, margin, padding testing*/
+        border-style: solid;
+        border-width: 5px;
+        border-color: red;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        /*border, margin, padding testing*/
+}
+.body a{
+    color: #3C4043;  
+}
 .body h3 {
     font-weight:bold;
     color:blue;
 }
 .body p {
-    color: #000;
+    color: #000;  
 }
-
-#body-navbar-container {
-    display:flex;
-    background-color: green;
-    }
-#body-navbar-left-side {
-    background-color: blue;
-    position: fixed;
-    left: 0;
-    }
-#body-navbar-right-side {
-    background-color: blue;
-    position: fixed;
-    right: 12px;
-    }
-
-#footer {
-    display: block;
-    position: fixed;
-    background-color:pink;
-    bottom: 0;
-    width: 100%;
-    }
-#bottom-navbar-upper-container{
-    margin-bottom: 5px;
-    text-align: left;
-    font-size: 15px;
-    }
-#search-location {
-    display: flex;
-    background-color: green;
-    width: 5%;
-    }
-#bottom-navbar-lower-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 13px;
-    width: 50%;
-    }
-
-.nav ul {
-    list-style-type: none;
-    background-color: black;
-    color: white;
-    padding: 0;
-    margin: 0;
-    float:left;
-    }
-li {
-    display: inline-block;
-    padding: 3px;
-    background-color: hotpink;
-    }
